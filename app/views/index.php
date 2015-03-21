@@ -105,7 +105,7 @@
                                 
 <!-- Credit card form -->
 <div class="container">
-    <div class="row">
+    <header>
         <div class="col-xs-12 col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -165,7 +165,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 </div>
 
                             </div> 
