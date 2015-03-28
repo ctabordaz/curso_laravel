@@ -12,9 +12,10 @@ Route::get('/test', function()
 Route::controller('personal','PersonalController');
 Route::controller('clase','Clase2Controller');
 
-Route::get('/test', function()
+Route::get('/ctabordaz', function()
 {
-	return View::make('ejemplo');
+	return View::make('perfil.perfil')
+                ->with("nombre","Camilo");
 });
 
 
