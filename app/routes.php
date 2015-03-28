@@ -16,3 +16,9 @@ Route::get('/test', function()
 {
 	return View::make('ejemplo');
 });
+
+
+Route::get('/tiempo', function()
+{
+	return View::make('time');
+});

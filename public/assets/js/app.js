@@ -1,4 +1,5 @@
 //JSON JAVA SCRIPT OBJECT NOTATION
+
 var managerScreen = managerScreen || {};
 managerScreen ={
     cambiar_color: function(color){
@@ -24,7 +25,7 @@ managerScreen ={
         $("p").toggle();
     },
     desvanecer: function(){
-        $("p").fadeToggle(1000)()
+        $("p").fadeToggle(1000)();
     },
     alertify: function(){
        alertify.success("Success notification");
@@ -74,3 +75,7 @@ alert("usted es mayor de edad");
             };
             $(':password').pwstrength(options);
         });
+        
+        
+        
+
