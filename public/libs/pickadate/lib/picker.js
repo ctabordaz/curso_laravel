@@ -23,7 +23,7 @@
 var $window = $( window )
 var $document = $( document )
 var $html = $( document.documentElement )
-var supportsTransitions = function() { return document.body.style.transition != null; }
+var supportsTransitions = function() { return document.body.style.transition != null; };
 
 
 /**
