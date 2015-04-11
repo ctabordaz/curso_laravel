@@ -22,19 +22,25 @@
     </head>
     <body>
         Bienvenido
-        <button onclick="ms.saludar()">Saludar</button>
-         <button onclick="ms.desvanecer()">Desvanecer</button>
-         <button onclick="ms.alertify()">Alerta</button>
-        <button onclick="ms.cambiar_color('red')">Rojo</button>
-         <button onclick="ms.cambiar_color('green')">Verde</button>
-         <button onclick="ms.ocultar()">Ocultar</button>
-         <button onclick="ms.ocultarj()">Ocultar_jquery</button>
-         <p >Esto es un parrafo</p>
-         <p> parrafo 2</p>
-         <p>parrafo 3</p>
-         <p> <span>Password:</span><input type="password" id="txtPassword" /> 
-             <meter value="0" high="80" optimum="90" low="20" id="PassValue" max="100"></meter> 
-         </p>
+        <div id="con">
+            <div class="uno">
+               <button onclick="ms.saludar()">Saludar</button>
+              <button onclick="ms.desvanecer()">Desvanecer</button>
+              <button onclick="ms.alertify()">Alerta</button>
+             <button onclick="ms.cambiar_color('red')">Rojo</button>
+              <button onclick="ms.cambiar_color('green')">Verde</button>
+              <button onclick="ms.ocultar()">Ocultar</button>
+              <button onclick="ms.ocultarj()">Ocultar_jquery</button>
+              <button onclick="ms.insert()">Añadir</button>
+              <p >Esto es un parrafo</p>
+              <p> parrafo 2</p>
+              <p>parrafo 3</p>
+              <p> <span>Password:</span><input type="password" id="txtPassword" /> 
+                  <meter value="0" high="80" optimum="90" low="20" id="PassValue" max="100"></meter> 
+              </p>
+            </div>
+
+        </div>
          
            
 

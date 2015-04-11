@@ -1,5 +1,5 @@
 //JSON JAVA SCRIPT OBJECT NOTATION
-
+var can = 1;
 var managerScreen = managerScreen || {};
 managerScreen ={
     cambiar_color: function(color){
@@ -34,6 +34,10 @@ managerScreen ={
 // use it
 alertify.custom("hola");
        
+    },
+    insert: function(){
+     $("<div>",{class: 'box', id: 'trolo'}).append($("<h2>", {id: can,text: can})).appendTo("#con");
+      can = can+1;  
     }
 };
 
@@ -63,7 +67,7 @@ while(edad < 18){
 alert("usted es mayor de edad");
 }
 //edad();
-
+/*
         jQuery(document).ready(function () {
             var options = {
                 onLoad: function () {
@@ -74,7 +78,7 @@ alert("usted es mayor de edad");
                 }
             };
             $(':password').pwstrength(options);
-        });
+        });*/
         
         
         
